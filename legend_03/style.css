@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+
+
+*,*::after,::before{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Philosopher', sans-serif;
+}
+html,body{
+width:100%;
+height:100%;
+background-color: #F2E7D5;
+}
+
+div.tribute{
+width:100%;
+height:100%;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+
+div.tribute_wrapper{
+position:relative;
+width:470px;
+height:640px;
+display:flex;
+flex-direction: column;
+justify-content: center;
+padding:30px;
+border-radius:30px;
+align-items: center;
+background-color:#9BA17B;
+box-shadow: 0px 0px 10px 6px #5555;
+}
+
+div.img{
+width:120px;
+height:120px;
+}
+img{
+width:100%;
+border-radius:50%;
+height:100%;
+}
+
+h3{
+font-weight: 100;
+}
+h1.tribute_legend{
+font-size:23px;
+color:#333;
+padding:10px;
+}
+
+div.highlight{
+text-align:center;
+padding:10px;
+color:#222;
+}
+div.content{
+color:#222;
+text-align:justify;
+padding:10px;
+}
+
+div.content p{
+line-height:1.3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
